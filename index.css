@@ -13,26 +13,13 @@ html,body{
   /*  background-color: #f8f8f8;*/
 }
 
-#about{
-	visibility: visible !important;
+.row{
+	max-width: 100vw !important;
 }
-#phase-one{
-		visibility: visible !important;
-
+.container-fluid{
+	    padding-right: unset; !important;
+    padding-left: unset; !important;
 }
-.cover-background{
-	visibility: visible !important;
-}
-
-
-.display-table{
-	visibility: visible !important;
-}
-
-
-
-
-
 
 
 
@@ -563,7 +550,7 @@ select::-ms-expand{ display:none;}
 iframe { border: 0;}
 p {margin: 0 0 25px}
 b, strong { font-weight: 600;}
-.last-paragraph-no-margin p:last-of-type {margin-bottom:0}
+.last-paragraph-no-margin p:last-of-type {margin-bottom:0;    font-size: 13.3px;}
 .alt-font strong {font-weight: 700 }
 ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 *{transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -ms-transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;}
@@ -896,10 +883,10 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .vertical-middle {-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); position: absolute; top: 50%; left:0; right: 0}
 .clear-both{ clear:both}
 .line-break { display:block;}
-.no-transition *, .swiper-container *, .mfp-container *, .skillbar-bar-main *, .portfolio-grid *, .parallax, .rev-slider *, .header-searchbar *, .header-social-icon * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; -ms-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s; }
+.no-transition *, .mfp-container *, .skillbar-bar-main *, .portfolio-grid *, .parallax, .rev-slider *, .header-searchbar *, .header-social-icon * { display: inherit; transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; -ms-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s; }
 .absolute-middle-center {left: 50%; top: 50%; position: absolute; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); }
 .absolute-bottom-center {left: 50%; top: 80%; position: absolute; -ms-transform: translateX(-50%) translateY(-80%); -moz-transform: translateX(-50%) translateY(-80%); -webkit-transform: translateX(-50%) translateY(-80%); transform: translateX(-50%) translateY(-80%); -o-transform: translateX(-50%) translateY(-80%); }
-
+ .swiper-container *{display: inline;}
 /* ===================================
     Button
 ====================================== */
@@ -1633,7 +1620,6 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .padding-eleven-half-all {padding:11.5%;}
 .padding-twelve-all {padding:12%;}
 .padding-twelve-half-all {padding:12.5%;}
-.padding-thirteen-all {padding:13%;}
 .padding-thirteen-half-all {padding:13.5%;}
 .padding-fourteen-all {padding:14%;}
 .padding-fourteen-half-all {padding:14.5%;}
@@ -3282,7 +3268,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 /* square pagination */
 .white-move .swiper-slide { cursor: url("../images/icon-move-light.png"), move; }
-.black-move .swiper-slide { cursor: url("../images/icon-move-black.png"), move;}
+.black-move .swiper-slide { cursor: url("../images/icon-move-black.png"), move; padding-right: 55px;}
 
 /* number pagination */
 .swiper-number { left: auto !important; right: 0!important; width: 35px !important; text-align: right!important; top:38% !important; bottom: inherit !important; }
